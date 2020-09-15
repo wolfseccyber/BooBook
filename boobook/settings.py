@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     'jazzmin',
     'blog.apps.BlogConfig',
     'users.apps.UsersConfig',
+    'crispy_forms',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -123,5 +124,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+CRISPY_TEMPLATE_PACK='bootstrap4'
 
 django_heroku.settings(locals())
