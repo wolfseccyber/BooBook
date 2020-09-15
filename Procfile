@@ -1,1 +1,1 @@
-web: gunicorn boobook1.wsgi --log-file -
+web: gunicorn boobook.wsgi --log-file -
