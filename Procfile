@@ -1,0 +1,1 @@
+web: gunicorn boobook1.wsgi --log-file -
