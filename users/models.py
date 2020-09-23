@@ -12,7 +12,8 @@ class Profile(models.Model):
         return f'{self.user.username} Profile'
 
 
-    def save(self, *args, **kwargs):
+"""    
+def save(self, *args, **kwargs):
         super().save(*args, **kwargs)
         img = Image.open(self.image.path)
         if img.mode in ("RGBA", "P"):
@@ -21,3 +22,4 @@ class Profile(models.Model):
             output_size = (300, 300)
             img.thumbnail(output_size)
             img.save(self.image.path)
+"""

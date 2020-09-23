@@ -10,3 +10,5 @@ django-crispy-forms >= 1.9.2
 pillow >= 1.0
 django_cleanup >= 1.0
 python-decouple >= 1.0
+boto3 >= 1.0
+django-storages >= 1.0
