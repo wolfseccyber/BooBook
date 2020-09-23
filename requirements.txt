@@ -9,3 +9,4 @@ django-heroku >= 0.3.1
 django-crispy-forms >= 1.9.2
 pillow >= 1.0
 django_cleanup >= 1.0
+python-decouple >= 1.0
